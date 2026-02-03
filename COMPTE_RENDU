@@ -68,6 +68,10 @@ Q21
 grep trust Microsoft
 University: "It's not that we don't trust the research, it's just that
 anti-trust laws.
+Q22
+sekou@ubuntu:~/Downloads/MU5EES05_lab_4-main$ grep -r money
+
+
 
 
 
