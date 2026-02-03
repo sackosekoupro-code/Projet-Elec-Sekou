@@ -1,0 +1,82 @@
+Question 4 : il y a "fichier et un repertoire qui en contient 3"
+
+~/Downloads/MU5EES05_lab_4-main$ ls -lrt
+total 116
+drwxrwxr-x 2 sekou sekou  4096 Sep 26  2023 sardar
+-rw-rw-r-- 1 sekou sekou    32 Sep 26  2023 README.md
+-rw-rw-r-- 1 sekou sekou 34359 Sep 26  2023 Microsoft
+-rw-rw-r-- 1 sekou sekou 70408 Sep 26  2023 answering-machine.txt
+
+
+
+Question 5 : 
+    La taille du dossier est incorrecte car la commande sert à afficher les tailles des fichiers.
+
+Question 6
+~/Downloads/MU5EES05_lab_4-main$ du Microsoft
+36	Microsoft
+
+Q7           
+
+stat Microsoft
+  File: Microsoft
+  Size: 34359     	Blocks: 72         IO Block: 4096   regular file
+Device: 805h/2053d	Inode: 1600620     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   sekou)   Gid: ( 1000/   sekou)
+Access: 2026-01-27 02:31:51.716002477 -0800
+Modify: 2023-09-26 00:07:06.000000000 -0700
+Change: 2026-01-27 01:56:51.604000719 -0800
+ Birth: -
+
+df -i Microsoftgrep trust Microsoft
+University: "It's not that we don't trust the research, it's just that
+anti-trust laws.
+
+Filesystem      Inodes  IUsed   IFree IUse% Mounted on
+/dev/sda5      2588672 199361 2389311    8% /
+
+
+  
+Q9  ls -t
+answering-machine.txt  Microsoft  README.md  sardar
+sekou@ubuntu:~/Downloads/MU5EES05_lab_4-main$ ls -r
+sardar  README.md  Microsoft  answering-machine.txt
+
+Q10  
+ls -S
+answering-machine.txt  Microsoft  sardar  README.md
+sekou@ubuntu:~/Downloads/MU5EES05_lab_4-main$ 
+ls -r
+sardar  README.md  Microsoft  answering-machine.txt
+
+Q11  
+      cat answering-machine.txt
+
+Q12 
+  more answering-machine.txt
+
+grep trust Microsoft
+University: "It's not that we don't trust the research, it's just that
+anti-trust laws.
+
+Q20
+
+cd sardar/
+tail -20 sardar3.txt
+
+Q21grep trust Microsoft
+University: "It's not that we don't trust the research, it's just that
+anti-trust laws.
+
+grep trust Microsoft
+University: "It's not that we don't trustgrep trust Microsoft
+University: "It's not that we don't trust the research, it's just that
+anti-trust laws.
+ the research, it's just thatgrep trust Microsoft
+University: "It's not that we don't trust the research, it's just that
+anti-trust laws.
+
+anti-trust laws.
+
+
+
