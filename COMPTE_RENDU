@@ -64,19 +64,12 @@ Q20
 cd sardar/
 tail -20 sardar3.txt
 
-Q21grep trust Microsoft
-University: "It's not that we don't trust the research, it's just that
-anti-trust laws.
-
+Q21
 grep trust Microsoft
-University: "It's not that we don't trustgrep trust Microsoft
-University: "It's not that we don't trust the research, it's just that
-anti-trust laws.
- the research, it's just thatgrep trust Microsoft
 University: "It's not that we don't trust the research, it's just that
 anti-trust laws.
 
-anti-trust laws.
+
 
 
 
